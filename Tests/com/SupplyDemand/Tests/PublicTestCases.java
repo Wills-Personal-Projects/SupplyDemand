@@ -102,7 +102,6 @@ public class PublicTestCases {
                 .map(String::toLowerCase)
                 .map(String::strip)
                 .collect(Collectors.toList());
-        System.out.println(actual);
         assertEquals(expected, actual);
     }
 
