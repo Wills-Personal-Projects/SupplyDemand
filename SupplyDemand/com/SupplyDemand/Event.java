@@ -1,6 +1,6 @@
 package com.SupplyDemand;
 
-public interface Event {
+interface Event {
     int getSourceId();
     String getProdCat();
 }
